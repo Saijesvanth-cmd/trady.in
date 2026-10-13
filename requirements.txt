@@ -1,0 +1,10 @@
+# Versions below were resolved and tested on Python 3.12.3 (Linux). Not yet run on Windows.
+fastapi==0.143.0
+uvicorn[standard]==0.54.0
+pandas==3.0.6
+numpy==2.5.4
+pydantic==2.14.1
+pydantic-settings==2.15.0
+httpx==0.28.1
+tzdata==2026.5   # required for Asia/Kolkata on Windows
+pytest==9.1.1
